@@ -1,0 +1,336 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(2, 38, 69);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(76, 163, 240);
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(2, 38, 69);
+  font-size: 1.02rem;
+  font-weight: 550;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 23vh 0;
+  align-items: center;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 3vw;
+}
+.leftSection a {
+  font-size: 2vw;
+  background-color: rgb(76, 163, 240);
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 30px 0;
+  display: inline-block;
+  border-radius: 30px;
+  color: white;
+}
+.leftSection a:hover {
+  color: rgb(2, 38, 69);
+  background-color: white;
+  transform: scale(105%);
+  transition-duration: 0.5s;
+}
+.rightSection img {
+  width: 80%;
+  position: relative;
+  background-color: rgb(76, 163, 240);
+  border-radius: 50%;
+}
+.rightSection img:hover {
+  transform: scale(105%);
+  transition-duration: 0.5s;
+}
+.text-bluish {
+  color: rgb(76, 163, 240);
+}
+#element {
+  color: rgb(76, 163, 240);
+}
+hr {
+  border: 0;
+  background-color: white;
+  height: 1px;
+  margin: 20px 5vw;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 2rem;
+  color: rgb(76, 163, 240);
+}
+.thirdSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 100vh;
+}
+.thirdSection h1 {
+  font-size: 2rem;
+  color: rgb(76, 163, 240);
+}
+.skill-section {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 2vh 0;
+  align-items: center;
+}
+.skill-section > div {
+  margin-top: 230px;
+  width: 20%;
+  font-size: 30px;
+  line-height: 70px;
+  background-color: #4ca3f0;
+  border-radius: 20px;
+  height: 38vh;
+  padding: 50px;
+  box-shadow: 2px 2px 5px #86b5dd;
+}
+.skill-section > div :hover {
+  transform: scale(102%);
+  background: linear-gradient(180deg, #93c3ed);
+  transition-duration: 0.5s;
+  font-size: 35px;
+  color: rgb(2, 38, 69);
+}
+.fourthSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 100vh;
+}
+.fourthSection h1 {
+  font-size: 2rem;
+  color: rgb(76, 163, 240);
+}
+.project-sections {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  margin: 80px 0 0 0;
+}
+.project-sections h1.project-heading {
+  color: rgb(2, 38, 69);
+  font-size: 1.5rem;
+  padding-bottom: 40px;
+}
+.project-sections ul {
+  padding: 10px 0;
+  padding-bottom: 30px;
+}
+.project-sections .project-1 {
+  border-radius: 10px;
+  background-color: #4ca3f0;
+  background-size: cover;
+  background-position: top;
+  margin: 0 20px;
+  padding: 20px 40px;
+  width: 25%;
+}
+
+.project-sections .project-1:hover {
+  transform: scale(105%);
+  transition-duration: 0.5s;
+}
+.project-sections .project-2 {
+  border-radius: 10px;
+  background-color: #4ca3f0;
+  background-size: cover;
+  background-position: top;
+  margin: 0 20px;
+  padding: 20px 40px;
+  width: 25%;
+}
+
+.project-sections .project-2:hover {
+  transform: scale(105%);
+  transition-duration: 0.5s;
+}
+.project-sections .project-3 {
+  border-radius: 10px;
+  background-color: rgb(76, 163, 240);
+  margin: 0 20px;
+  padding: 20px 40px;
+  width: 25%;
+}
+.project-sections .project-3:hover {
+  transform: scale(105%);
+  transition-duration: 0.5s;
+}
+.project-sections a {
+  color: white;
+  text-decoration: none;
+}
+.project-sections a:hover {
+  text-decoration: underline;
+}
+.fifthSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.fifthSection h1.signup {
+  font-size: 2rem;
+  color: rgb(76, 163, 240);
+}
+
+.login {
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  background-color: #4ca3f0;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin-top: 7vw;
+  margin-left: 30vw;
+}
+.login h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(2, 38, 69);
+}
+.login .sign-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: rgb(2, 38, 69);
+  margin: 30px 0;
+  border-radius: 40px;
+}
+.sign-box input {
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 0px 0px 0px 20px;
+}
+.sign-box input::placeholder {
+  color: white;
+}
+.login .forget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: -5px 0 20px;
+}
+.forget label input {
+  accent-color: white;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.forget a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.forget a:hover {
+  text-decoration: underline;
+}
+.login .btn {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(2, 38, 69);
+  color: white;
+  border-radius: 40px;
+
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(2, 38, 69);
+  font-weight: 600;
+}
+.login .register-link {
+  font-size: 12px;
+  margin: 15px;
+  text-align: center;
+}
+.register-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+}
+.text-gray {
+  color: gray;
+}
+footer {
+  background-color: rgb(76, 163, 240);
+  justify-content: space-evenly;
+}
+.footer {
+  display: flex;
+  max-width: 80vw;
+  color: white;
+  font-size: 2vw;
+  justify-content: space-evenly;
+  padding: 9vh;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  transition-duration: 0.5s;
+  color: rgb(2, 38, 69);
+}
+footer .text-center {
+  color: #d6d2d2;
+  text-align: center;
+}
+.about-para {
+  font-size: 1.2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
